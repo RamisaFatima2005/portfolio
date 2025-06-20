@@ -18,7 +18,7 @@ const Projects = () => {
           {/* Next.js Card */}
           <div className="bg-gray-900 border border-gray-800 rounded-2xl shadow-lg p-8 w-80 min-h-[500px] flex flex-col items-center mx-auto">
             <Image
-              src="/nextjs.png"
+              src="/images/nextjs.png"
               alt="Next.js Project"
               className="rounded-lg mb-6 object-contain"
               width={200}
@@ -40,7 +40,7 @@ const Projects = () => {
           {/* TypeScript Card */}
           <div className="bg-gray-900 border border-gray-800 rounded-2xl shadow-lg p-8 w-80 min-h-[500px] flex flex-col items-center mx-auto">
             <Image
-              src="/ts.png"
+              src="/images/ts.png"
               alt="TypeScript Project"
               className="rounded-lg mb-6 object-contain"
               width={200}
@@ -62,7 +62,7 @@ const Projects = () => {
           {/* Python Card */}
           <div className="bg-gray-900 border border-gray-800 rounded-2xl shadow-lg p-8 w-80 min-h-[500px] flex flex-col items-center mx-auto">
             <Image
-              src="/python.png"
+              src="/images/python.png"
               alt="Python Project"
               className="rounded-lg mb-6 object-contain"
               width={200}
@@ -84,7 +84,7 @@ const Projects = () => {
           {/* OpenAI SDK Card */}
           <div className="bg-gray-900 border border-gray-800 rounded-2xl shadow-lg p-8 w-80 min-h-[500px] flex flex-col items-center mx-auto">
             <Image
-              src="/sdk.png"
+              src="/images/sdk.png"
               alt="OpenAI SDK Project"
               className="rounded-lg mb-6 object-contain"
               width={200}
