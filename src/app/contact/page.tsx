@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaFacebook, FaEnvelope, FaGithub } from "react-icons/fa";
 import { SiX } from "react-icons/si"; // X (Twitter) icon
 
 const Contact = () => {
@@ -16,20 +16,12 @@ const Contact = () => {
       </p>
 
       <div className="flex space-x-8 text-3xl">
-        <Link href="https://x.com/ramisafatima_05" className="hover:text-gray-400 transition" passHref>
-            <SiX />
+        <Link href="https://github.com/RamisaFatima2005" className="hover:text-zinc-400 transition" passHref>
+            <FaGithub />
         </Link>
 
         <Link href="https://www.linkedin.com/in/ramisa-fatima-8639822b8/" className="hover:text-blue-500 transition" passHref>
             <FaLinkedin />
-        </Link>
-
-        <Link href="https://facebook.com/yourusername" className="hover:text-blue-600 transition" passHref>
-            <FaFacebook />
-        </Link>
-
-        <Link href="mailto:fatimaramisa12@gmail.com" className="hover:text-red-400 transition" passHref>
-            <FaEnvelope />
         </Link>
       </div>
     </section>
