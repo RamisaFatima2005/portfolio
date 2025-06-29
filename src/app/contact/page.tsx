@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FaLinkedin, FaFacebook, FaEnvelope, FaGithub } from "react-icons/fa";
-import { SiX } from "react-icons/si"; // X (Twitter) icon
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 
 const Contact = () => {
   return (
