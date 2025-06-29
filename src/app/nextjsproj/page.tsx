@@ -98,12 +98,12 @@ const NextjsProjects = () => {
         </Link>
 
         {/* Haveli Restaurant Website */}
-        <Link href={"https://blog-website-eight-fawn.vercel.app/" }>
+        <Link href={"https://haveli-restaurant-webiste.vercel.app/" }>
         <div className="bg-gray-900 border border-gray-800 rounded-2xl shadow-lg p-8 w-80 min-h-[440px] flex flex-col items-center mx-auto">
           <Image src="/images/haveli.png" alt="Haveli Restaurant Website" className="rounded-lg mb-6" width={200} height={200} />
           <h2 className="text-2xl font-semibold text-amber-200 mb-2 text-center">Haveli Restaurant Website</h2>
           <p className="text-gray-400 text-center mb-6">
-            An amazing restaurant website built with Next.js.
+            Collaborated with a team to build an amazing restaurant website using Next.js, where I was responsible for designing and developing the dynamic menu section.
           </p>
           <button className="px-6 py-3 rounded-lg border border-amber-200 text-amber-200 hover:bg-amber-200 hover:text-black cursor-pointer">
             View Project
